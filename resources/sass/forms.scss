@@ -1,0 +1,18 @@
+.input-msg-errors{
+	@apply text-red-600 font-medium text-xs mt-1 w-full;
+}
+.input-error{
+	input, select, textarea{
+		@apply border border-red-600;
+	}
+}
+
+.input-text-bend{
+	@apply block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6;
+}
+.label-bend{
+	@apply block text-sm font-medium leading-6 text-gray-900;
+}
+.checkbox-bend{
+	@apply h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600;
+}

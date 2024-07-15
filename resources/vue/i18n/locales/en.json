@@ -1,0 +1,23 @@
+{
+	"validations": {
+		"required": "Este campo es requerido",
+		"email": "Este campo no es un correo electrónico válido",
+		"minLength": "Este campo debe tener un mínimo de {0} caracteres",
+		"maxLength": "Este campo debe tener un máximo de {0} caracteres"
+	},
+	"forms": {
+		"email": "Correo Electrónico",
+		"password": "Contraseña",
+		"remember": "Recordarme",
+		"forgot": "¿Olvidaste tu contraseña?",
+		"name": "Nombre",
+		"first_name": "Nombre",
+		"last_name": "Apellido",
+		"select_role": "Seleccionar Rol",
+		"gender": "Género",
+		"birthday": "Fecha de Nacimiento",
+		"address": "Dirección",
+		"phone": "Teléfono",
+		"age": "Edad"
+	}
+}

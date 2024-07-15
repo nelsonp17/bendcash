@@ -1,0 +1,19 @@
+// Tailwind CSS bg-gradient-to-r from-purple-800 to-blue-600:
+// hover:from-purple-700 hover:to-indigo-700
+@layer utilities {
+  .bg-primary {
+    @apply bg-gradient-to-r from-purple-700 to-indigo-700;
+  }
+  .bg-primary-light{
+    @apply bg-gradient-to-r from-purple-600 to-indigo-600;
+  }
+  .btn-primary {
+    @apply bg-gradient-to-r px-4 py-2 text-base font-medium justify-center whitespace-nowrap rounded-md border border-transparent from-purple-600 bg-origin-border to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white;
+  }
+  .btn-secondary{
+    @apply bg-white text-base px-4 py-2 font-medium justify-center whitespace-nowrap rounded-md border border-transparent bg-origin-border text-black hover:bg-gray-100;
+  }
+  .text-primary{
+    @apply bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent;
+  }
+}

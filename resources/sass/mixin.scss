@@ -1,0 +1,11 @@
+// MIXIN CSS
+@mixin set-max-width($width) {
+    max-width: $width;
+}
+@mixin set-width($width) {
+    width: $width;
+}
+@mixin set-px($px) {
+    padding-left: $px;
+    padding-right: $px;
+}

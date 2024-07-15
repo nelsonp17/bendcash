@@ -1,0 +1,43 @@
+{
+
+	"validations": {
+		"required": "Este campo es requerido",
+		"email": "Este campo no es un correo electrónico válido",
+		"confirm_password": "Las contraseñas no coinciden",
+		"minLength": "Este campo debe tener un mínimo de {0} caracteres",
+		"maxLength": "Este campo debe tener un máximo de {0} caracteres"
+	},
+	"forms": {
+		"username": "Nombre de usuario",
+		"email": "Correo Electrónico",
+		"password": "Contraseña",
+		"confirm_password": "Repetir la contraseña",
+		"remember": "Recordarme",
+		"forgot": "¿Olvidaste tu contraseña?",
+		"name": "Nombre",
+		"first_name": "Nombre",
+		"last_name": "Apellido",
+		"select_role": "Seleccionar Rol",
+		"gender": "Género",
+		"birthday": "Fecha de Nacimiento",
+		"address": "Dirección",
+		"phone": "Teléfono",
+		"phone1": "Teléfono 1",
+		"phone2": "Teléfono 2",
+		"age": "Edad",
+		"type_document": "Tipo de documento",
+		"errors": {
+			"number": "El campo {0}: no es un número válido",
+			"email": "El campo {0}: no es un correo válido",
+			"unique": "Ya existe este {0} en nuestra base de datos",
+			"required": "El campo {0}: es requerido",
+			"default": "El campo {0}: no es válido",
+			"register": {
+				"general": "Error de registro"
+			},
+			"login": {
+				"general": "Error de inicio de sesión"
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.sponsor{
+  width: 100%;
+  background-color: $gray-light;
+}
+
+$wh: calc((100vw / 10) - 5vh);
+/* calcular el 100% height: calc((100% * 16)/9);*/
+.sponsor-logo {
+  /**width: $wh;
+  height: $wh;**/
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: $wh;
+    border-radius: 50%;
+  }
+}
+

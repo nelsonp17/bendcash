@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Fontisto
+@import 'fontisto/fontisto';
+
+
+// Tailwind CSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Variables
+@import 'variables';
+@import 'fonts';
+@import 'mixin';
+@import 'colors';
+@import 'navbar';
+@import 'sponsor';
+@import 'forms';
+@import 'logo';
+
+body {
+	font-family: $font-family-sans-serif;
+}
